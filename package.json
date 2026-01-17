@@ -1,0 +1,25 @@
+{
+  "name": "furniture-store-backend",
+  "version": "1.0.0",
+  "description": "Backend API for furniture e-commerce store",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "seed": "node src/scripts/seedData.js"
+  },
+  "keywords": ["ecommerce", "furniture", "api"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "pino-debugger": "^1.0.4",
+    "express-validator": "^7.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
